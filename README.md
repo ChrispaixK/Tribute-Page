@@ -1,4 +1,4 @@
-<!-- # Aerbnb
+# Aerbnb
 ### [View the live site](https://aerbnb.herokuapp.com/#/)
 **Aerbnb** is a single-page, full stack web application **(SPA)** inspired by Airbnb where users can view, book, and search for listings by location.
 
@@ -142,4 +142,4 @@ Aerbnb uses a PostgreSQL database to store its relational data.
 * Implement ability for users to upload profile pictures and edit profile page
 * Infinite scrolling or pagination on the index pages
 * Implement ability to interact with friends, i.e. messaging
-* Additional filters for listings -->
+* Additional filters for listings
