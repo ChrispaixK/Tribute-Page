@@ -1,3 +1,6 @@
 <h1>single article page</h1>
-<p><strong>Title: </strong> <%= @inkuru.title %></p>
-<p><strong>Description: </strong> <%= @inkuru.description %> </p>
+<p><strong>Title: </strong> <%= @article.title %></p>
+<p><strong>Description: </strong> <%= @article.description %> </p>
+
+<%= link_to 'Edit article', edit_article_url %>
+<%= link_to 'Go back', articles_path %>
