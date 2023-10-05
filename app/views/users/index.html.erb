@@ -1,0 +1,18 @@
+<h1>Xblog users </h1>
+
+<% @users.each do |user| %>
+  <div>
+    <%= link_to user.name, user %>
+  </div>
+  <div>
+    <%= link_to gravatar_for(user), user %>
+  </div>
+  <div>
+    <p> <%= pluralize(user.articles.count, "article") %></p>
+    <%= link_to "View Profile", user %>
+    <%= link_to "Edit profile", edit_user_path(user) %>
+  </div>
+  <div>
+    <small>Joined <%= time_ago_in_words(user.created_at) %> ago , edited <%= time_ago_in_words(user.updated_at) %></small>
+  </div>
+<% end %>
